@@ -6,7 +6,7 @@
 ✔ This repo collects some links with papers which I recently starred related on SLAM , sensor fusion ,etc.
 -->
 
-paperswithcode.com: [sensor-fusion](https://paperswithcode.com/task/sensor-fusion)专题、
+paperswithcode.com: [sensor-fusion](https://paperswithcode.com/task/sensor-fusion)、
 [visual-odometry](https://paperswithcode.com/task/visual-odometry/)、
 [visual-localization](https://paperswithcode.com/task/visual-localization/)
 
