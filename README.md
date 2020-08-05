@@ -61,8 +61,7 @@ Metric-Semantic Localization and Mapping》 [VIO code](https://github.com/MIT-SP
 > MAP问题，factor-graph 优化
 
 《Closed-form preintegration methods for graph-based visual–inertial navigation》[code](https://github.com/rpng/cpi)
-> use CPI(closed-form preintegration), an indirect (feature-based), tightly coupled, sliding-window optimization based VIO;  loosely coupled direct image alignment VIO;
-可扩展使用其他传感器？
+> use CPI(closed-form preintegration), an indirect (feature-based), tightly coupled, sliding-window optimization based VIO;  loosely coupled direct image alignment VIO
 
 
 
