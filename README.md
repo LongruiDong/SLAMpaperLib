@@ -83,8 +83,7 @@ which optimizes a set of active recent frames in a sliding window and keeps past
 《Multi-view 3D Object Detection Network for Autonomous Driving》 CVPR2017
 [code](https://github.com/bostondiditeam/MV3D)
 
-> 提到不同的融合方式：early, late ,deep fusion，
-感觉适用于end to end 
+> 提到不同的融合方式：early, late ,deep fusion
 
 
 《LATTE: Accelerating LiDAR Point Cloud Annotation via Sensor Fusion, One-Click Annotation, and Tracking》 [code](https://github.com/bernwang/latte)
@@ -97,7 +96,7 @@ which optimizes a set of active recent frames in a sliding window and keeps past
 
 
 
-《Vision-Enhanced Lidar Odometry and Mapping》硕士论文2016 --紧耦合，多相机+lidar,和我在前端后端 都融合lidar的想法一样。。
+《Vision-Enhanced Lidar Odometry and Mapping》硕士论文2016 --紧耦合，多相机+lidar
 > 后端： tightly couples sparse visual odometry and lidar scanmatching in a single optimization problem. 
 
 > 前端：A new feature tracking pipeline to reject outlier;
@@ -143,10 +142,10 @@ an iterative way
 《DVL-SLAM: sparse depth enhanced direct visual-LiDAR SLAM》Auton. Robots2020（[DVL-SLAM](https://github.com/irapkaist/dvl_slam)将开源） --optimization tightly coupled,没有ICP步骤，和DEMO比较结果
 > first to combines the sparse depth measurement of LiDAR with the intensity of image and utilizes the direct method
 
-《Lidar-Monocular Visual Odometry using Point and Line Features》2020（未开源） --optimization(BA), tightly coupled  和张师兄的有一定相似！？
+《Lidar-Monocular Visual Odometry using Point and Line Features》2020（未开源） --optimization(BA), tightly coupled 
 > structure information: point and line features;fuses the point and line features as landmarks.extract the depth of the points and lines from the lidar data,depth prior is also formulated as prior factors in the point-line bundle adjustment.
 
-> the first efficient lidar-monocular odometry approach using the point and line features together in a purely geometric way，达到KITTI上的SOTA； 可扩展加入IMU factor
+> the first efficient lidar-monocular odometry approach using the point and line features together in a purely geometric way，达到KITTI上的SOTA
 
 《Visual-LiDAR SLAM with loop
 closure》 2018 硕士论文 （未开源） -紧耦合，但没有联合两类约束 -闭环，关键帧
@@ -193,7 +192,7 @@ to use both visual and LiDAR measurements by running in parallel SLAM for each m
 《Low-drift and real-time LiDAR odometry and mapping》Autonomous Robots2017 使用了imu
 
 《A Line/Plane Feature-based Lidar Inertial Odometry and Mapping》2019（未开源）
-> loam的改进版，imu松耦合，点云投影为range image 在计算法线SRI，增添pose graph 和回环检测    我的imls可以借鉴？
+> loam的改进版，imu松耦合，点云投影为range image 在计算法线SRI，增添pose graph 和回环检测  
 
 《INS/GPS/LiDAR integrated navigation system for urban and indoor environments using hybrid scan matching algorithm》2015（未开源）--EKF
 > a hybrid lidar odometry algorithm was proposed which
