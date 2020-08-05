@@ -253,7 +253,7 @@ odometry in the pre-processing level and the intermediate level output level
 
 
 
-### 多传感器SLAM框架
+## 多传感器SLAM框架
 
 融合方法：pose graph optmization
 
