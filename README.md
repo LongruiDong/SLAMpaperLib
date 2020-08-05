@@ -1,6 +1,4 @@
-
 <p align="center">
- <h1 align="center"></h1>
  <p align="center">✔ This repo collects some links with papers which I recently starred related on SLAM , sensor fusion ,etc.</p>
 </p>
 
