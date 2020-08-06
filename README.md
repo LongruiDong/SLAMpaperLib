@@ -161,7 +161,7 @@ closure》 2018 硕士论文 （未开源） -紧耦合，但没有联合两类�
 
 --------
 
-《A Tight Coupling of Vision-Lidar Measurements for an Effective Odometry》IV2019（未开源） -来自综述中的描述 是我感兴趣的后端使用两者的残差之和做优化;-点云部分基于LOAM（改进voxe map），添加闭环并用pose graph optimization优化点云地图，但文中没有介绍该部分 ;视觉部分基于ORBSLAM2，关键帧局部BA 
+《A Tight Coupling of Vision-Lidar Measurements for an Effective Odometry》IV2019（未开源）-点云部分基于LOAM（改进voxe map），添加闭环并用pose graph optimization优化点云地图，但文中没有介绍该部分 ;视觉部分基于ORBSLAM2，关键帧局部BA 
 > proposed
 to use both visual and LiDAR measurements by running in parallel SLAM for each modality and coupling the data. This was done by using both modalities’ residuals during the optimization phase
 
