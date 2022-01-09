@@ -56,7 +56,7 @@ system; that combined the IMU and reprojection error terms into a cost function 
 sparse front-end, graph optimization back-end, loop closure, and relocation.
 
 《Kimera: an Open-Source Library for Real-Time
-Metric-Semantic Localization and Mapping》 [VIO code](https://github.com/MIT-SPARK/Kimera-VIO)
+Metric-Semantic Localization and Mapping》 [Kimera-VIO](https://github.com/MIT-SPARK/Kimera-VIO)
 
 > MAP问题，factor-graph 优化
 
@@ -225,7 +225,7 @@ from a lidar
 > aid lidar
 odometry in the pre-processing level and the intermediate level output level
 
-《Tightly Coupled 3D Lidar Inertial Odometry and Mapping》（ICRA 2019）[LIO-mapping](https://github.com/hyye/lio-mapping) --g optimization
+《Tightly Coupled 3D Lidar Inertial Odometry and Mapping》（ICRA 2019）[LIO-mapping](https://github.com/hyye/lio-mapping) --graph optimization
 > the first open-source implementation for tightly coupled lidar and IMU fusion available to the community.
 
 > 自称SOTA 和LOAM，loam+imu（loosely coupled）比较  是在非公开数据集benchmark测试的
@@ -282,6 +282,17 @@ with online spatial and temporal multi-sensor calibration within the computation
 《HeteroFusion: Dense Scene Reconstruction Integrating Multi-sensors》TVCG2019（未开源）
 
 《A robust and modular multi-sensor fusion approach applied to MAV navigation》IROS2013--Extended Kalman Filter (EKF)  [ethzasl_msf](https://github.com/ethz-asl/ethzasl_msf)
+
+
+# semantic/Object SLAM
+
+[《DSP-SLAM: Object Oriented SLAM with Deep Shape Priors》](https://arxiv.org/abs/2108.09481)3DV 2021 [code](https://github.com/JingwenWang95/DSP-SLAM) 
+> 将基于深度学习的shape prior 结合到ORB-SLAM2的前端中，在线得到物体mesh，可以在原稀疏特征点m基础上增加得到含有object model的地图
+
+# deep learning + Geometric SLAM
+
+[《DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras》](https://arxiv.org/abs/2108.10869) NeurIPS 2021 [code](https://github.com/princeton-vl/DROID-SLAM)
+> 在RAFT基础上增加基于几何方法的DBA layer，端到端，效果优异
 
 
 # Contribute
